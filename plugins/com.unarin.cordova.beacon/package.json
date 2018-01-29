@@ -1,0 +1,59 @@
+{
+  "_from": "git+https://github.com/petermetz/cordova-plugin-ibeacon.git",
+  "_id": "com.unarin.cordova.beacon@3.4.1",
+  "_inBundle": false,
+  "_integrity": "sha1-BiRXLEa1MKf4OP7AwMkO4kerpbE=",
+  "_location": "/com.unarin.cordova.beacon",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "https://github.com/petermetz/cordova-plugin-ibeacon.git",
+    "rawSpec": "https://github.com/petermetz/cordova-plugin-ibeacon.git",
+    "saveSpec": "git+https://github.com/petermetz/cordova-plugin-ibeacon.git",
+    "fetchSpec": "https://github.com/petermetz/cordova-plugin-ibeacon.git",
+    "gitCommittish": "master"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/petermetz/cordova-plugin-ibeacon.git#0bba4958766e95dd94db005798f33d0b1793153d",
+  "_spec": "https://github.com/petermetz/cordova-plugin-ibeacon.git",
+  "_where": "C:\\Users\\DELTA-PC\\Desktop\\100daysOfCode\\ble\\bleScan\\node_modules",
+  "author": {
+    "name": "Peter Metz",
+    "email": "peter.metz@unarin.com",
+    "url": "Somogyvari"
+  },
+  "bugs": {
+    "url": "https://github.com/petermetz/cordova-plugin-ibeacon/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "com.unarin.cordova.beacon",
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  },
+  "deprecated": false,
+  "description": "Proximity Beacon Monitoring and Transmission Plugin (supporting iBeacons)",
+  "homepage": "https://github.com/petermetz/cordova-plugin-ibeacon",
+  "keywords": [
+    "cordova",
+    "ibeacon",
+    "beacon",
+    "bluetooth",
+    "le",
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova-android"
+  ],
+  "license": "Apache 2.0",
+  "name": "com.unarin.cordova.beacon",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/petermetz/cordova-plugin-ibeacon.git"
+  },
+  "version": "3.4.1"
+}
