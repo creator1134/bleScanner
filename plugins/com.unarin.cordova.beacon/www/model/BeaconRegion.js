@@ -35,21 +35,21 @@ var Region = require('com.unarin.cordova.beacon.Region');
  * 
  * @returns {BeaconRegion} An instance of {BeaconRegion}.
  */
-function BeaconRegion (identifier, uuid, major, minor, notifyEntryStateOnDisplay){
+function BeaconRegion(identifier, uuid, major, minor, notifyEntryStateOnDisplay) {
 	// Call the parent constructor, making sure (using Function#call)
 	// that "this" is set correctly during the call
 	Region.call(this, identifier);
 
-	BeaconRegion.checkUuid(uuid);
+	//	BeaconRegion.checkUuid(uuid);
 	BeaconRegion.checkMajorOrMinor(major);
 	BeaconRegion.checkMajorOrMinor(minor);
 
 	this.uuid = uuid;
-    this.major = major;
-    this.minor = minor;
-    this.notifyEntryStateOnDisplay = notifyEntryStateOnDisplay;
+	this.major = major;
+	this.minor = minor;
+	this.notifyEntryStateOnDisplay = notifyEntryStateOnDisplay;
 
-    this.typeName = 'BeaconRegion';  
+	this.typeName = 'BeaconRegion';
 };
 
 // Create a BeaconRegion.prototype object that inherits from Region.prototype.
@@ -96,4 +96,3 @@ BeaconRegion.U_INT_16_MIN_VALUE = 0;
 
 
 module.exports = BeaconRegion;
-

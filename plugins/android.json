@@ -12,6 +12,9 @@
         },
         "com.unarin.cordova.beacon": {
             "PACKAGE_NAME": "com.ble"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.ble"
         }
     },
     "dependent_plugins": {}
